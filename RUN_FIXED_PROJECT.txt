@@ -1,0 +1,29 @@
+UNIQUE TRAVELS - FIXED MERN BUS BOOKING PROJECT
+
+1. Start MongoDB service.
+2. Backend:
+   cd backend
+   npm install
+   npm start
+   Keep this window open. Backend runs on http://localhost:8080
+
+3. Frontend in a NEW PowerShell:
+   cd frontend
+   npm install
+   $env:NODE_OPTIONS="--openssl-legacy-provider"
+   npm start
+   Open http://localhost:3000
+
+4. Demo flow:
+   Home -> Get Started -> Sign-Up -> Login -> Select From/To/Date -> Search Buses -> Select Bus -> Select Seat -> enter passenger details -> Payment -> use demo card 4111 1111 1111 1111, any name, 12/30, 123 -> PAY -> Ticket.
+
+The project now uses local MongoDB by default and automatically inserts demo buses if the buses collection is empty.
+Payment is a DEMO payment page for academic/project demonstration. It does not charge a real card.
+
+NEW FEATURES IN THIS VERSION
+- Online demo payment methods: PhonePe, Google Pay, Paytm, BHIM UPI and Other UPI.
+- Card payment has been removed completely.
+- Booking records and payment details are saved in MongoDB.
+- Booking History page shows previous journeys, seats, amount, payment method and transaction ID.
+- Profile shows the actual number of bookings.
+- This is a demo payment flow for an academic project; no real money is charged.
