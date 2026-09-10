@@ -1,4 +1,5 @@
 # MERN-BUS-APP
+
 ## MFRP (My First Real Project) assigned by Cognizant during Internship
 
 A Bus ticket booking application made using MERN Stack (MongoDB, Express js, React js, Node js)
@@ -7,35 +8,24 @@ The Bus ticket application is composed of the following Features:
 
 ### Front-End
 
-* Sign-In & Sign-Up Pages.
-
+* Sign-In \& Sign-Up Pages.
 * Uses Token based system, so only registered users can access the website  passport js.
-
 * Password hashing using passport js.
-
 * Has a profile page, which will display all information about the signed in user.
-
-* List of cities for users to choose from (starting city & destination city). 
-
+* List of cities for users to choose from (starting city \& destination city).
 * Getting list of bus's of different companies with various details.
-
 * Seat selection page has a very user friendly environment, which also generates dynamic forms for storing data's of passengers.
-
-* Has a Confirmation page, which gets a debit card data using react-credit-cards. This version of the application does not include handling the payment process. 
-
+* Has a Confirmation page, which gets a debit card data using react-credit-cards. This version of the application does not include handling the payment process.
 * Final page has a ticket displaying component, it displays all passenger data and also generates a random number as a transaction ID.
 
 ### Back-End
 
 * Uses Express js based application for the backend process.
-
 * Uses MongoDB atlas for storing the collections.
-
 * Uses passport js for authenticating user and token based system.
-
 * Uses passport js for hashing the password before sending the data to the cloud.
-
 * This version does not support dynamic seat data being stored from cloud.
+
 
 
 This project also demonstrates:
@@ -45,22 +35,22 @@ This project also demonstrates:
 **Screenshots:**
 Landing Page:
 
-![](documentationResources/bus.gif)
+!\[](documentationResources/bus.gif)
 
 Signing In Page:
 
-![](documentationResources/signin.png)
+!\[](documentationResources/signin.png)
 
 Bus Selection Page:
 
-![](documentationResources/bus-page.png)
+!\[](documentationResources/bus-page.png)
 
 Seat Selection Page:
 
-![](documentationResources/seatSelection.gif)
+!\[](documentationResources/seatSelection.gif)
 
-Payment & Confirmation Page:
-![](documentationResources/payment.gif)
+Payment \& Confirmation Page:
+!\[](documentationResources/payment.gif)
 ---
 
 ## Developed With
@@ -76,7 +66,9 @@ Payment & Confirmation Page:
 * [Express js](http://expressjs.com/) - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 * [MongoDB atlas](https://www.mongodb.com/cloud/atlas) - MongoDB Atlas is the global cloud database service for modern applications.
 * [Passport Js](http://www.passportjs.org/) - Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application.
----
+
+\---
+
 
 
 ## Getting Started
@@ -101,21 +93,21 @@ npm -v
 
 Follow the following steps to get development environment running.
 
-* Clone _'MERN-BUS-APP.git'_ repository from GitHub
+* Clone *'MERN-BUS-APP.git'* repository from GitHub
 
-  ```bash
+```bash
   git clone https://github.com/AdityaKumawat97/MERN-BUS-APP.git
   ```
 
-   _OR USING SSH_
+  *OR USING SSH*
 
-  ```bash
+```bash
   git clone git@github.com:AdityaKumawat97/MERN-BUS-APP.git
   ```
 
 * Install node modules
 
-   ```bash
+```bash
    cd MERN-BUS-APP
    cd frontend
    npm install
@@ -125,13 +117,14 @@ Follow the following steps to get development environment running.
    ```
 
 
+
 ### Starting both front end and back end servers
 
 * Build application
 
   This command will start the mongodb and the front end part.
 
-  ```bash
+```bash
   cd frontend
   npm start
   cd..
@@ -140,6 +133,6 @@ Follow the following steps to get development environment running.
   ```
 
 
----
 
+\---
 
